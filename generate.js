@@ -2,6 +2,9 @@ var UglifyJS = require("uglify-js");
 var convert = require("convert-source-map")
 var fs = require("fs")
 
+fs.mkdirSync("./tmp");
+fs.mkdirSync("./build");
+
 generateEvalFile();
 
 var result = UglifyJS.minify([
