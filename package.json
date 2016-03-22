@@ -1,0 +1,23 @@
+{
+  "name": "source-maps-support-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattzeunert/source-maps-support-playground.git"
+  },
+  "author": "Matt Zeunert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattzeunert/source-maps-support-playground/issues"
+  },
+  "homepage": "https://github.com/mattzeunert/source-maps-support-playground#readme",
+  "dependencies": {
+    "convert-source-map": "^1.2.0",
+    "uglify-js": "^2.6.2"
+  }
+}
