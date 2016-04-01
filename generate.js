@@ -2,8 +2,8 @@ var UglifyJS = require("uglify-js");
 var convert = require("convert-source-map")
 var fs = require("fs")
 
-fs.mkdirSync("./tmp");
-fs.mkdirSync("./build");
+try { fs.mkdirSync("./tmp") } catch (e) { /* already exists */ }
+try { fs.mkdirSync("./build") } catch (e) { /* already exists */ }
 
 generateEvalFile();
 
